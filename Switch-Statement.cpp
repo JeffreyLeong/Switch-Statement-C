@@ -29,6 +29,9 @@ int main()
         case 'F':
             cout << "Not good. ";
             cout << "Go study.\n";
-        break;
+            break;
+        default:
+            cout << "That is not a possible grade.\n";
     }
+    cout << "End of program.\n";
 }
