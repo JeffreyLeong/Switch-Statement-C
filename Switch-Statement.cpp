@@ -13,12 +13,22 @@ int main()
             cout << "Excellent. ";
             cout << "You need not to take the final.";
         break;
+
         case 'B':
             cout << "Very good. ";
             grade = 'A';
             cout << "Your midterm grade is now ";
-            cout << grade << endl;
+            cout << grade << ". Congrats!" << endl;
         break;
 
+        case 'C':
+            cout << "Passing.\n";
+            break;
+
+        case 'D':
+        case 'F':
+            cout << "Not good. ";
+            cout << "Go study.\n";
+        break;
     }
 }
