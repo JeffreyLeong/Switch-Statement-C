@@ -10,11 +10,13 @@ int main()
     switch(grade)
     {
         case 'A':
+        case 'a':
             cout << "Excellent. ";
-            cout << "You need not to take the final.";
+            cout << "You need not to take the final.\n";
         break;
 
         case 'B':
+        case 'b':
             cout << "Very good. ";
             grade = 'A';
             cout << "Your midterm grade is now ";
@@ -22,11 +24,14 @@ int main()
         break;
 
         case 'C':
+        case 'c':
             cout << "Passing.\n";
             break;
 
         case 'D':
+        case 'd':
         case 'F':
+        case 'f':
             cout << "Not good. ";
             cout << "Go study.\n";
             break;
